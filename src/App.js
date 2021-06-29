@@ -22,7 +22,7 @@ class App extends Component {
     return (
     <Fragment>
       <div className="react">{name}</div>
-      <MyComponent name="REACT"/>
+      <MyComponent name="react">무우우야호오오!</MyComponent>
     </Fragment>
     )
   }

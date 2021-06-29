@@ -25,7 +25,10 @@ propTypes를 통한 props 검증 ?
 propTypes에 만든 프로퍼티의 타입 값을 지정해주고 지정한 타입이 아니라면 경고 메시지는 출력해 잘못됐음을 알려줍니다.
 
 isRequired 를 사용해 필수 propTypes 를 설정 - propTypes 를 지정하지 않았을 때 경고창을 띄어줍니다.
+평소에는 propTypes 에 key 값으로 적어둔 프로퍼티가 props 에 없어도 오류가 발생하지 않지만
+isRequired를 추가하면 protpTypes 에 key 값에 해당하는 props에 프로퍼티가 없다면 경고를 발생시켜 알려줍니다.
 
+더 많은 propTypes 종류가 있으니 미래의 나야 잘 학습하도록
 */
 
 import React from 'react';

@@ -1,4 +1,5 @@
 import './App.css';
+import Myclass from "./reactBook/classpropTypes"
 import JSX from './reactBook/JSXgram';
 import MyComponent from './reactBook/Component';
 import { Fragment, Component } from 'react'; // div 요소로 태그들을 감싸고 싶지 않을 때  Fragment 라는 컴포넌트를 추가로 불러와 사용할 수 있다.
@@ -21,8 +22,7 @@ class App extends Component {
     const name = 'react';
     return (
     <Fragment>
-      <div className="react">{name}</div>
-      <MyComponent name="react">무우우야호오오!</MyComponent>
+      <Myclass name="윤정길">무야야야야!</Myclass>
     </Fragment>
     )
   }

@@ -5,8 +5,8 @@
 import react, {Component} from 'react'
 
 class Myclass extends Component {
+
   render() {
-    console.log(this.props)
     const {name, children} = this.props;
     return (
       <div>
